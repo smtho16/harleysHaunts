@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Harley's Haunts </title>
+  <link rel="stylesheet" type="text/css" href="harleysHaunts.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Trocchi');
+  </style>
+</head>
+
+  <body>
+
+      <div id="header">
+
+        <h1> HARLEY'S HAUNTS </h1>
+        <h2> Where dogs are welcome! </h2>
+
+      </div>
+
+      <div id="nav">
+        <ul>
+          <li><a href="about.html"> About </a></li>
+          <li><a href="#"> Pet-Friendly Venues </a>
+            <ul>
+              <li><a href="cafes.html"> Cafes </a> </li>
+              <li><a href="restaurants.html"> Restaurants </a> </li>
+              <li><a href="pubsBars.html"> Pubs/Bars </a> </li>
+              <li><a href="shops.html"> Shops </a> </li>
+            </ul>
+          </li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </div>
+
+<!-- ***** SIGN UP FORM ***** -->
+
+<div class="form">
+
+  <!-- ***** REGISTER ***** -->
+  <div class="tab-content">
+    <div id="signup">
+      <h1>Register For Free</h1>
+
+    <form action="/" method="post">
+
+    <div class="top-row">
+      <div class="field-wrap" id="firstname">
+        <label>
+          First Name<span class="req">*</span>
+        </label>
+        <input type="text" required autocomplete="off" />
+      </div>
+
+      <div class="field-wrap" id="lastname">
+        <label>
+          Last Name<span class="req">*</span>
+        </label>
+        <input type="text"required autocomplete="off"/>
+      </div>
+    </div>
+
+    <div class="field-wrap" id="email">
+      <label>
+        Email Address<span class="req">*</span>
+      </label>
+      <input type="email"required autocomplete="off"/>
+    </div>
+
+    <div class="field-wrap" id="password">
+      <label>
+        Set A Password<span class="req">*</span>
+      </label>
+      <input type="password"required autocomplete="off"/>
+    </div>
+
+    <button type="submit" class="button_button-block"/>Get Started</button>
+
+    </form>
+  </div> <!-- div id=sign up -->
+
+  <!-- ***** LOGIN ***** -->
+
+  <div id="login">
+          <h1>Already a member? Login</h1>
+
+          <form action="/" method="post">
+
+            <div class="field-wrap" id="loginemail">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap" id="loginpassword">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+          <button id="loginButton" class="button button-block"/>Log In</button>
+
+          </form>
+
+        </div>
+
+      </div><!-- tab-content -->
+
+</div> <!-- /form -->
+
+</html>
