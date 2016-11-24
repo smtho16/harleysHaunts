@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 10px;
+}
+
+/* ----- BACKGROUND ----- */
+
+body {
+  background-image: url(harley.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+/* ----- NAVIGATION BAR ----- */
+
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #76C5CF;
+  background-size: cover;
+}
+
+#nav ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+#nav ul:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#nav ul li {
+  float: left;
+  position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Trocchi", serif;
+}
+
+#nav ul li:hover {
+  background: #63ACB6;
+}
+
+#nav ul li:hover a {
+  color: white;
+}
+
+#nav ul ul {
+  display: none;
+  background: #76C5CF;
+  position: absolute;
+  top: 100%;
+  width: 200px;
+}
+
+#nav ul li:hover > ul {
+  display: block;
+}
+
+#nav ul ul li {
+  float: left;
+  border-bottom: 1px solid white;
+}
+
+/* ----- HEADER ----- */
+
+#header {
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#header h1 {
+  padding-top: 15px;
+  height: 60px;
+  font-family: "Trocchi", serif;
+  color: #3E2F1B;
+  font-size: 80px;
+}
+
+#header h2 {
+  padding-top: 30px;
+  font-family: "Trocchi", serif;
+  color: #644A26;
+}
+
+/* ----- HOME BUTTON -----*/
+
+#home {
+    position: relative;
+      bottom: 200px;
+      left: 15px;
+}
