@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>About / Harley's Haunts</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- import font "Trocchi" -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trocchi');
+
+    </style>
+
+  </head>
+  <body>
+
+
+<!-- ***** HEADER ***** -->
+
+<div class="container-fluid" id="header">
+  <h1>ABOUT US</h1>
+  <h2>We're an open book!</h2>
+</div>
+
+<!-- ***** NAVIGATION BAR ***** -->
+
+<nav id="nav" class="navbar navbar-inverse navbar-custom">
+  <div class="container-fluid">
+    <ul id="navbar" class="nav navbar-nav">
+      <li id="home"><a href="index.html">Home</a></li>
+      <li id="about" class="active"><a href="about.html">About</a></li>
+      <li  id="dropdown" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pet-Friendly Venues<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li id="shops"><a href="shops.html">Shops</a></li>
+          <li id="cafes"><a href="cafes.html">Cafes</a></li>
+          <li id="pubs"><a href="pubs.html">Pubs/Bars</a></li>
+          <li id="restaurants"><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+      </li>
+      <li id="contact"><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul id="login" class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"></span> Sign Up</a></li>
+      <li><a href="login.html"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ***** CAROUSEL ***** -->
+
+<div id="carouselcontainer" class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div id="listbox" class="carousel-inner" role="listbox">
+
+      <div  id="harley" class="item active">
+        <img src="img/harley3.jpg" alt="Harley" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Harley</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+
+      <div id="steph" class="item">
+        <img src="img/steph.jpg" alt="Steph" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Stephanie Thomas</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+
+      <div id="dev" class="item">
+        <img src="img/dev.jpg" alt="Dev" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Devamsha Gunput</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span id="previous" class="sr-only">Previous</span>
+    </a>
+    <a id="btn" class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span id="next" class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- ***** END ***** -->
+</body>
+</html>

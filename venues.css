@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 10px;
+}
+
+/* ----- BACKGROUND ----- */
+
+body {
+  background-image: url(harley.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* ----- NAVIGATION BAR ----- */
+
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #76C5CF;
+  background-size: cover;
+}
+
+#nav ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+#nav ul:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#nav ul li {
+  float: left;
+  position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Trocchi", serif;
+}
+
+#nav ul li:hover {
+  background: #63ACB6;
+}
+
+#nav ul li:hover a {
+  color: white;
+}
+
+#nav ul ul {
+  display: none;
+  background: #76C5CF;
+  position: absolute;
+  top: 100%;
+  width: 200px;
+}
+
+#nav ul li:hover > ul {
+  display: block;
+}
+
+#nav ul ul li {
+  float: left;
+  border-bottom: 1px solid white;
+}
+
+/* ----- HEADER ----- */
+
+#header {
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#header h1 {
+  height: 60px;
+  font-family: "Trocchi", serif;
+  color: #3E2F1B;
+  font-size: 80px;
+}
+
+#header h2 {
+  padding-top: 30px;
+  font-family: "Trocchi", serif;
+  color: #644A26;
+}
+
+h2 {
+  font-family: "Trocchi", serif;
+  color: #644A26;
+}
+
+
+/* ----- HOME BUTTON -----*/
+
+#home {
+    position: relative;
+      bottom: 200px;
+      left: 15px;
+}
+
+/* ----- CONTENT -----*/
+
+#article1 {
+  height: 150px;
+  width: 850px;
+
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-left: 350px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+
+  float: left;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: #76C5CF;
+  background-color: #76C5CF;
+
+  color: #644A26;
+  font-family: "Trocchi", serif;
+
+  background-color: rgba(118, 197, 207, 0.75);
+
+  overflow-y: scroll;
+}
+
+#article1 h2 a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #644A26;
+}
+
+#article1 p {
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+#article1Picture {
+
+  float: left;
+  margin-top: -178px;
+  margin-left: 35px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #76C5CF;
+}
+
+div.intro {
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: -100px;
+}
+
+a.intro {
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+a.intro:visited {
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+a.intro:hover {
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  color: #76C5CF;
+  text-decoration: none;
+  opacity: 0.9;
+
+}
+
+a.intro:active {
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+#pub1 {
+  float:left;
+  margin-left: 100px;
+
+
+}
+
+div.pub1 {
+  float: right;
+  padding-left: 10px;
+  width: 500px;
+  opacity: 0.2;
+  background-color: #76C5CF;
+  font-color: #white;
+  font-family: "Trocchi", serif;
+  overflow: scroll;
+  height: 468px;
+  -webkit-transition: opacity .95s ease;
+}
+
+div.pub1:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+  overflow: scroll;
+}
+
+#pub2 {
+  float:left;
+  margin-left: 100px;
+
+
+}
+
+div.pub2 {
+  float: right;
+  padding-left: 10px;
+  width: 500px;
+  opacity: 0.2;
+  background-color: #76C5CF;
+  font-color: #white;
+  font-family: "Trocchi", serif;
+  overflow: scroll;
+  height: 468px;
+  -webkit-transition: opacity .95s ease;
+}
+
+div.pub2:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
+  overflow: scroll;
+}

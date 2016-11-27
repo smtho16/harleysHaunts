@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Contact / Harley's Haunts</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- import font "Trocchi" -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Trocchi');
+    </style>
+
+  </head>
+  <body>
+
+
+<!-- ***** HEADER ***** -->
+
+<div class="container-fluid" id="header">
+  <h1>CONTACT</h1>
+  <h2>We love hearing from you!</h2>
+</div>
+
+<!-- ***** NAVIGATION BAR ***** -->
+
+<nav id="nav" class="navbar navbar-inverse navbar-custom">
+  <div class="container-fluid">
+    <ul id="navbar" class="nav navbar-nav">
+      <li id="home"><a href="index.html">Home</a></li>
+      <li id="about"><a href="about.html">About</a></li>
+      <li  id="dropdown" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pet-Friendly Venues<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li id="shops"><a href="shops.html">Shops</a></li>
+          <li id="cafes"><a href="cafes.html">Cafes</a></li>
+          <li id="pubs"><a href="pubs.html">Pubs/Bars</a></li>
+          <li id="restaurants"><a href="restaurants.html">Restaurants</a></li>
+        </ul>
+      </li>
+      <li id="contact" class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul id="login" class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ***** BODY FORM ***** -->
+
+<div id="message" class="container">
+
+  <p> Leave us your details and a message below and we'll get back to you as soon as possible! </p>
+
+</div>
+
+<div id="form" class="container">
+  <div id="formrow" class="row">
+  <form class="form-horizontal" name="commentform">
+    <div class="form-group">
+        <div id="name"class="col-md-4">
+            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name"/>
+        </div>
+        <div id="lname"class="col-md-4">
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name"/>
+        </div>
+        <div id="email" class="col-md-4 input-group">
+        <span class="input-group-addon"></span>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address"/>
+        </div>
+    </div>
+    <div id="comments" class="form-group">
+        <div class="col-md-12">
+            <textarea rows="6" class="form-control" id="comments" name="comments" placeholder="Type your message here"></textarea>
+        </div>
+    </div>
+    <div id="button" class="form-group">
+        <div class="col-md-6">
+            <button type="submit" value="Submit" class="btn btn-info pull-right">Send</button>
+        </div>
+    </div>
+</form>
+</div><!-- /row -->
+</div> <!-- container -->
+
+
+
+</body>
+</html>
